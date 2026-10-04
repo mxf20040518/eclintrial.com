@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.classList.add('js');</script>
+  <title>eClintrial — The Unified Platform for Modern Clinical Trials</title>
+  <meta name="description" content="eClintrial unifies EDC, eCOA, eConsent, RTSM and CTMS in one secure, compliant platform so sponsors, CROs and sites can run faster, cleaner clinical trials." />
+  <meta property="og:title" content="eClintrial — The Unified Platform for Modern Clinical Trials" />
+  <meta property="og:description" content="Run faster, cleaner clinical trials with one secure, compliant eClinical platform." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eclintrial.com/" />
+  <link rel="canonical" href="https://eclintrial.com/" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="eClintrial home">
+        <img src="assets/logo.svg" alt="" width="36" height="36" />
+        <span>e<strong>Clintrial</strong></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu" aria-label="Primary">
+        <a href="#platform">Platform</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#compliance">Compliance</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Request a Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">eClinical, unified</span>
+          <h1>Run faster, cleaner <span class="gradient-text">clinical trials</span> on one platform.</h1>
+          <p class="lead">eClintrial brings data capture, patient engagement, randomization and study oversight together — so sponsors, CROs and sites spend less time reconciling systems and more time advancing science.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Request a Demo</a>
+            <a href="#platform" class="btn btn-ghost">Explore the Platform →</a>
+          </div>
+          <ul class="hero-badges" aria-label="Compliance highlights">
+            <li>21 CFR Part 11</li>
+            <li>ICH E6(R3) GCP</li>
+            <li>GDPR &amp; HIPAA</li>
+            <li>CDISC</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="dash-card">
+            <div class="dash-header">
+              <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+              <span class="dash-title">Study ECT-204 · Phase II</span>
+            </div>
+            <div class="dash-body">
+              <div class="kpis">
+                <div class="kpi"><span class="kpi-label">Enrolled</span><span class="kpi-value">312<small>/400</small></span></div>
+                <div class="kpi"><span class="kpi-label">Open queries</span><span class="kpi-value">18</span></div>
+                <div class="kpi"><span class="kpi-label">Sites active</span><span class="kpi-value">27</span></div>
+              </div>
+              <div class="progress-block">
+                <div class="progress-row"><span>Enrollment</span><span>78%</span></div>
+                <div class="bar"><span style="width:78%"></span></div>
+                <div class="progress-row"><span>Data entry complete</span><span>91%</span></div>
+                <div class="bar"><span style="width:91%"></span></div>
+                <div class="progress-row"><span>SDV complete</span><span>64%</span></div>
+                <div class="bar"><span style="width:64%"></span></div>
+              </div>
+              <div class="sparkline">
+                <svg viewBox="0 0 300 70" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#0EA5A4" stop-opacity=".35"/>
+                      <stop offset="1" stop-color="#0EA5A4" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0 60 L30 55 L60 50 L90 52 L120 40 L150 36 L180 30 L210 24 L240 20 L270 12 L300 8 L300 70 L0 70Z" fill="url(#spark)"/>
+                  <path d="M0 60 L30 55 L60 50 L90 52 L120 40 L150 36 L180 30 L210 24 L240 20 L270 12 L300 8" stroke="#0EA5A4" stroke-width="2.5" fill="none"/>
+                </svg>
+                <span class="spark-label">Weekly randomizations</span>
+              </div>
+            </div>
+          </div>
+          <div class="float-card fc-1">✓ eConsent signed · Site 014</div>
+          <div class="float-card fc-2">⚡ Query resolved in 2h</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat reveal"><span class="stat-value" data-count="40" data-suffix="%">0%</span><span class="stat-label">faster database lock</span></div>
+        <div class="stat reveal"><span class="stat-value" data-count="60" data-suffix="%">0%</span><span class="stat-label">fewer data queries</span></div>
+        <div class="stat reveal"><span class="stat-value" data-count="99.9" data-suffix="%" data-decimals="1">0%</span><span class="stat-label">platform uptime SLA</span></div>
+        <div class="stat reveal"><span class="stat-value" data-count="24" data-suffix="/7">0</span><span class="stat-label">global study support</span></div>
+      </div>
+    </section>
+
+    <!-- Platform -->
+    <section class="section" id="platform">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">The Platform</span>
+          <h2>Every module your study needs. One login, one database.</h2>
+          <p>Start with a single module or deploy the full suite. Every component shares the same data model, audit trail and user management — no integrations to maintain.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z M8 8h8 M8 12h8 M8 16h5"/></svg>
+            </div>
+            <h3>EDC</h3>
+            <p>Intuitive electronic data capture with edit checks, conditional logic and mid-study changes without downtime.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z M11 18h2"/></svg>
+            </div>
+            <h3>eCOA / ePRO</h3>
+            <p>Patient-friendly diaries and questionnaires on any device, with offline mode, reminders and multilingual support.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z M14 3v6h6 M8 17l2-2 2 2 4-4"/></svg>
+            </div>
+            <h3>eConsent</h3>
+            <p>Remote and in-clinic consent with rich media, comprehension checks and compliant e-signatures.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M16 3h5v5 M8 21H3v-5 M21 3l-7 7 M3 21l7-7 M3 3l18 18"/></svg>
+            </div>
+            <h3>RTSM / IRT</h3>
+            <p>Randomization and trial supply management with stratification, blinding and automated drug resupply.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M3 3v18h18 M7 15l4-4 3 3 5-6"/></svg>
+            </div>
+            <h3>CTMS</h3>
+            <p>Plan, track and report on sites, milestones, monitoring visits and budgets across your entire portfolio.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10 M12 2v10h10 M12 2a10 10 0 0 1 10 10"/></svg>
+            </div>
+            <h3>Analytics &amp; Insights</h3>
+            <p>Real-time dashboards, risk-based monitoring signals and CDISC-ready exports for faster submissions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">How it works</span>
+          <h2>From protocol to database lock — in weeks, not months.</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3>Design</h3>
+            <p>Build your study with a drag-and-drop designer and a reusable library of validated forms.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h3>Validate &amp; launch</h3>
+            <p>Automated UAT scripts and versioned releases get you to first-patient-in faster.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h3>Conduct</h3>
+            <p>Sites, patients and monitors work in one connected workspace with live data review.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">04</span>
+            <h3>Close out</h3>
+            <p>Clean data, complete audit trails and submission-ready datasets at the click of a button.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section class="section" id="solutions">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Solutions</span>
+          <h2>Built for everyone who makes a trial happen.</h2>
+        </div>
+        <div class="tabs reveal" role="tablist" aria-label="Audience">
+          <button role="tab" aria-selected="true" aria-controls="tab-sponsors" id="t-sponsors">Sponsors</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-cros" id="t-cros" tabindex="-1">CROs</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-sites" id="t-sites" tabindex="-1">Sites</button>
+          <button role="tab" aria-selected="false" aria-controls="tab-patients" id="t-patients" tabindex="-1">Patients</button>
+        </div>
+        <div class="tab-panels">
+          <div class="tab-panel" id="tab-sponsors" role="tabpanel" aria-labelledby="t-sponsors">
+            <div>
+              <h3>Portfolio-wide visibility and control</h3>
+              <p>See every study, site and data point in real time. Reduce vendor sprawl and cut the cost of each trial with a single validated platform.</p>
+              <ul class="checklist">
+                <li>Cross-study dashboards and KPIs</li>
+                <li>Standardized form libraries</li>
+                <li>Predictable, transparent pricing</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-panel" id="tab-cros" role="tabpanel" aria-labelledby="t-cros" hidden>
+            <div>
+              <h3>Deliver more studies with the same team</h3>
+              <p>Rapid study builds, reusable templates and white-label options help you win and deliver more business for your sponsors.</p>
+              <ul class="checklist">
+                <li>Multi-sponsor tenant management</li>
+                <li>Reusable study templates</li>
+                <li>Built-in risk-based monitoring</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-panel" id="tab-sites" role="tabpanel" aria-labelledby="t-sites" hidden>
+            <div>
+              <h3>Less admin, more patient care</h3>
+              <p>One login for every module, clean intuitive forms and fewer queries mean coordinators spend time with patients, not screens.</p>
+              <ul class="checklist">
+                <li>Single sign-on across modules</li>
+                <li>EHR-to-EDC data transfer</li>
+                <li>Inline query resolution</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-panel" id="tab-patients" role="tabpanel" aria-labelledby="t-patients" hidden>
+            <div>
+              <h3>Participation that fits real life</h3>
+              <p>Patients consent, report outcomes and attend visits from home or clinic using an accessible app in their own language.</p>
+              <ul class="checklist">
+                <li>Mobile app for iOS, Android &amp; web</li>
+                <li>WCAG 2.2 AA accessibility</li>
+                <li>Telehealth visit support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compliance -->
+    <section class="section section-dark" id="compliance">
+      <div class="container compliance-grid">
+        <div class="reveal">
+          <span class="eyebrow eyebrow-light">Security &amp; Compliance</span>
+          <h2>Inspection-ready from day one.</h2>
+          <p>eClintrial is built and validated under a quality management system designed for regulated life-science environments. Your data is encrypted, auditable and always under your control.</p>
+          <a href="#contact" class="btn btn-light">Request our validation package</a>
+        </div>
+        <ul class="compliance-list reveal">
+          <li><strong>21 CFR Part 11 &amp; EU Annex 11</strong><span>Electronic records, signatures and full audit trails.</span></li>
+          <li><strong>ICH E6(R3) GCP</strong><span>Risk-proportionate design and data integrity (ALCOA+).</span></li>
+          <li><strong>GDPR &amp; HIPAA</strong><span>Privacy by design with regional data residency.</span></li>
+          <li><strong>Encryption everywhere</strong><span>AES-256 at rest, TLS 1.3 in transit, SSO &amp; MFA.</span></li>
+          <li><strong>CDISC standards</strong><span>CDASH capture and SDTM-ready exports.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What teams say</span>
+          <h2>Trusted by clinical operations teams.</h2>
+        </div>
+        <div class="quote-grid">
+          <figure class="quote reveal">
+            <blockquote>“We went from protocol approval to first patient in just under five weeks. Having EDC and RTSM in one place removed an entire reconciliation workstream.”</blockquote>
+            <figcaption><strong>Director of Clinical Operations</strong><span>Mid-size biotech</span></figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <blockquote>“Our coordinators actually like using it. Query volume dropped dramatically in the first month after switching.”</blockquote>
+            <figcaption><strong>Site Network Manager</strong><span>Multi-site research network</span></figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <blockquote>“The audit trail and validation documentation made our last regulatory inspection remarkably smooth.”</blockquote>
+            <figcaption><strong>Head of Quality Assurance</strong><span>Global CRO</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section-alt" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <span class="eyebrow">About eClintrial</span>
+          <h2>Technology that gets therapies to patients sooner.</h2>
+          <p>eClintrial was founded by clinical researchers and engineers who saw how fragmented systems slowed down studies and burdened sites and patients. Our mission is simple: make every clinical trial faster, more inclusive and more reliable through a single, intelligent platform.</p>
+          <p>We partner with sponsors, CROs and research sites worldwide — from first-in-human studies to global Phase III programs.</p>
+        </div>
+        <div class="values reveal">
+          <div class="value"><h3>Patient first</h3><p>Every decision starts with the people who make research possible.</p></div>
+          <div class="value"><h3>Quality by design</h3><p>Compliance and data integrity are built in, not bolted on.</p></div>
+          <div class="value"><h3>Radical simplicity</h3><p>Powerful software that anyone can use without weeks of training.</p></div>
+          <div class="value"><h3>Partnership</h3><p>Dedicated study teams who are with you from build to lock.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <span class="eyebrow">Get started</span>
+          <h2>See eClintrial in action.</h2>
+          <p>Tell us about your upcoming study and we’ll set up a personalized walkthrough with a clinical solutions specialist.</p>
+          <ul class="contact-info">
+            <li><span>Email</span><a href="mailto:info@eclintrial.com">info@eclintrial.com</a></li>
+            <li><span>Sales</span><a href="mailto:sales@eclintrial.com">sales@eclintrial.com</a></li>
+            <li><span>Support</span><a href="mailto:support@eclintrial.com">support@eclintrial.com</a></li>
+          </ul>
+        </div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <label>First name<input type="text" name="firstName" autocomplete="given-name" required /></label>
+            <label>Last name<input type="text" name="lastName" autocomplete="family-name" required /></label>
+          </div>
+          <label>Work email<input type="email" name="email" autocomplete="email" required /></label>
+          <label>Organization<input type="text" name="organization" autocomplete="organization" required /></label>
+          <label>I am a…
+            <select name="role" required>
+              <option value="">Select one</option>
+              <option>Sponsor (Pharma / Biotech / MedTech)</option>
+              <option>CRO</option>
+              <option>Research site</option>
+              <option>Academic / Investigator</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>How can we help?<textarea name="message" rows="4"></textarea></label>
+          <button type="submit" class="btn btn-primary btn-block">Request a Demo</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="brand brand-light">
+          <img src="assets/logo.svg" alt="" width="32" height="32" />
+          <span>e<strong>Clintrial</strong></span>
+        </a>
+        <p>The unified eClinical platform for faster, cleaner clinical trials.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <a href="#platform">EDC</a>
+        <a href="#platform">eCOA / ePRO</a>
+        <a href="#platform">eConsent</a>
+        <a href="#platform">RTSM</a>
+        <a href="#platform">CTMS</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#about">About</a>
+        <a href="#compliance">Security</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> eClintrial. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
