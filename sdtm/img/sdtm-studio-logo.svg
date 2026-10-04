@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>SDTM Studio — clinical research data</title>
+  <defs>
+    <linearGradient id="background" x1="6" y1="5" x2="58" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#175C66"/>
+      <stop offset="1" stop-color="#0B3041"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#background)"/>
+  <path d="M24 9h18l8 8v29a4 4 0 0 1-4 4H24a4 4 0 0 1-4-4V13a4 4 0 0 1 4-4Z" fill="#90D4D0"/>
+  <path d="M42 9v8h8" fill="none" stroke="#367E87" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="13" y="15" width="34" height="40" rx="5" fill="#F7FCFB"/>
+  <path d="M20 22v16h20" fill="none" stroke="#79AFB2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m23 33 5-5 5 3 6-8" fill="none" stroke="#16858E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="23" cy="33" r="2" fill="#16858E"/>
+  <circle cx="28" cy="28" r="2" fill="#16858E"/>
+  <circle cx="33" cy="31" r="2" fill="#16858E"/>
+  <circle cx="39" cy="23" r="2" fill="#16858E"/>
+  <path d="M20 44h17M20 49h12" stroke="#79AFB2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="46" cy="47" r="12" fill="#0B3041"/>
+  <circle cx="46" cy="47" r="9.5" fill="#2AB6AA"/>
+  <path d="m41.5 47 3 3 6-6" fill="none" stroke="#fff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

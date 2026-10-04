@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.classList.add('js');</script>
+  <title>SDTM Studio — AI-assisted CDISC SDTM conversion | eClintrial</title>
+  <meta name="description" content="SDTM Studio converts clinical trial data to CDISC SDTM with AI-drafted mapping, visual transformation workflows, CDISC CORE validation, Define-XML 2.1, annotated CRF and reviewer's guide." />
+  <meta property="og:title" content="SDTM Studio — AI-assisted CDISC SDTM conversion" />
+  <meta property="og:description" content="From raw clinical data to submission-ready SDTM, with AI doing the first draft and your team in control." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eclintrial.com/sdtm/" />
+  <link rel="canonical" href="https://eclintrial.com/sdtm/" />
+  <link rel="icon" type="image/svg+xml" href="/sdtm/img/sdtm-studio-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="/" class="brand" aria-label="eClintrial home">
+        <img src="/assets/logo.svg" alt="" width="36" height="36" />
+        <span>e<strong>Clintrial</strong></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#privacy">Data Protection</a>
+        <a href="https://sdtmstudio.eclintrial.com/">Sign in</a>
+        <a href="/#contact" class="btn btn-primary btn-sm">Request a Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="product-title">
+            <img src="/sdtm/img/sdtm-studio-logo.svg" alt="" width="52" height="52" />
+            <span class="eyebrow" style="margin:0">SDTM Studio</span>
+          </div>
+          <h1>From raw clinical data to <span class="gradient-text">submission-ready SDTM</span>.</h1>
+          <p class="lead">Upload your EDC exports and external data. SDTM Studio plans the domains, drafts the mapping and transformation workflows, generates the datasets and validates them — while your team reviews and approves every step.</p>
+          <div class="hero-actions">
+            <a href="/#contact" class="btn btn-primary">Request a Demo</a>
+            <a href="https://sdtmstudio.eclintrial.com/" class="btn btn-ghost">Sign in →</a>
+          </div>
+          <ul class="hero-badges" aria-label="Standards">
+            <li>SDTMIG</li>
+            <li>CDISC CT</li>
+            <li>Define-XML 2.1</li>
+            <li>CDISC CORE</li>
+            <li>Dataset-JSON</li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="dash-card">
+            <div class="dash-header" aria-hidden="true">
+              <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+              <span class="dash-title">AE · Transformation workflow</span>
+            </div>
+            <img class="shot" src="/sdtm/img/workflow.jpg" alt="SDTM Studio transformation workflow editor for the AE domain" width="1800" height="1075" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">How it works</span>
+          <h2>One platform for the whole SDTM process.</h2>
+          <p>Run each step on its own, or all of them at once with a dry run: one click from uploaded sources to a full set of deliverables, in a sandbox copy of the study.</p>
+        </div>
+        <ol class="steps steps-5">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3>Upload sources</h3>
+            <p>EDC exports, external vendor data, EDC metadata and the blank CRF.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h3>AI plans &amp; drafts</h3>
+            <p>AI proposes the domain inventory and drafts each domain's workflow and mapping rules.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h3>Review</h3>
+            <p>Mappers and reviewers check each proposal with live previews on the study data.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">04</span>
+            <h3>Generate &amp; validate</h3>
+            <p>Produce the SDTM datasets and check them with CDISC CORE conformance rules.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">05</span>
+            <h3>Deliver</h3>
+            <p>Define-XML, annotated CRF, reviewer's guide, validation report and submission package.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section section-alt" id="features">
+      <div class="container">
+        <div class="feature-row reveal">
+          <div>
+            <span class="eyebrow">Auto Mapping</span>
+            <h2>AI drafts. People decide.</h2>
+            <p>The AI reads the source metadata, the SDTM Implementation Guide and the controlled terminology to propose which domains a study needs and how each one is built. Every proposal is test-run on the study data before review, so reviewers see records and warnings, not just rules.</p>
+            <ul class="checklist">
+              <li>Domain inventory planned from sources and protocol</li>
+              <li>Controlled terminology value mapping</li>
+              <li>Choice of AI provider, including a local model</li>
+            </ul>
+          </div>
+          <figure class="product-shot"><img src="/sdtm/img/auto-mapping.jpg" alt="Auto Mapping: AI workflow proposals with dry-run results" width="1800" height="656" loading="lazy" /></figure>
+        </div>
+
+        <div class="feature-row flip reveal">
+          <div>
+            <span class="eyebrow">Transformation workflows</span>
+            <h2>Visual, reviewable, reproducible.</h2>
+            <p>Each domain is a workflow of clear steps — filter, join, transpose, derive — ending in the SDTM variable mapping. Preview the output of any step, and export the program in Python, R or SAS for independent review.</p>
+            <ul class="checklist">
+              <li>Standard derivations: USUBJID, --SEQ, --DY, EPOCH, ISO 8601 dates</li>
+              <li>Supplemental qualifiers (SUPP--) and RELREC</li>
+              <li>SAS transport (XPT v5) or Dataset-JSON output</li>
+            </ul>
+          </div>
+          <figure class="product-shot"><img src="/sdtm/img/workflow.jpg" alt="Transformation workflow canvas" width="1800" height="1075" loading="lazy" /></figure>
+        </div>
+
+        <div class="feature-row reveal">
+          <div>
+            <span class="eyebrow">Validation</span>
+            <h2>Find issues before the agency does.</h2>
+            <p>Validate the generated datasets with the CDISC CORE rules engine or Pinnacle 21-style rule sets, record an explanation for each issue and export the validation report.</p>
+            <ul class="checklist">
+              <li>Issues traced to datasets, rules and records</li>
+              <li>Rules that could not run are reported, not hidden</li>
+            </ul>
+          </div>
+          <figure class="product-shot"><img src="/sdtm/img/validation.jpg" alt="Validation results by severity, rule and message" width="1800" height="1075" loading="lazy" /></figure>
+        </div>
+
+        <div class="feature-row flip reveal">
+          <div>
+            <span class="eyebrow">Study overview</span>
+            <h2>Know where every domain stands.</h2>
+            <p>Track review progress, open issues and warnings per domain. Study-level roles separate administrators, mappers, reviewers and viewers.</p>
+          </div>
+          <figure class="product-shot"><img src="/sdtm/img/overview.jpg" alt="Study overview with domain progress" width="1800" height="706" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Capabilities</span>
+          <h2>Everything a submission needs.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3z M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6 M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+            <h3>Sources</h3>
+            <p>SAS7BDAT, XPT, CSV, Excel, Parquet and ZIP; CDISC ODM 1.3 / 2.0; EDC metadata such as Rave ALS; blank CRF and protocol.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+            <h3>Standards</h3>
+            <p>SDTM and SDTMIG, CDISC Controlled Terminology and the CDISC Library, versioned and locked per study.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.7z M3.3 7 12 12l8.7-5 M12 22V12"/></svg></div>
+            <h3>Deliverables</h3>
+            <p>SDTM datasets, Define-XML 2.1, annotated CRF, reviewer's guide (cSDRG), mapping specification, validation report and submission package.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg></div>
+            <h3>Dry run</h3>
+            <p>One click runs the whole process in a sandbox copy of the study, fixes common issues automatically and reports what still needs a decision.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M16 18l6-6-6-6 M8 6l-6 6 6 6"/></svg></div>
+            <h3>Programs</h3>
+            <p>The approved specification can be exported as Python, R or SAS programs for independent programming review and QC.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z M14 3v6h6 M8 13h8 M8 17h5"/></svg></div>
+            <h3>Audit trail</h3>
+            <p>Every change to specifications, runs, approvals and AI requests is recorded with who, when and why.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Data protection -->
+    <section class="section section-dark" id="privacy">
+      <div class="container compliance-grid">
+        <div class="reveal">
+          <span class="eyebrow eyebrow-light">Data Protection</span>
+          <h2>Patient data stays with you.</h2>
+          <p>The AI works from metadata, not from patient records. Transformations run on the platform as deterministic, reviewable programs.</p>
+        </div>
+        <ul class="compliance-list reveal">
+          <li><strong>No row-level data to AI</strong><span>Only variable names, labels, formats and de-identified coded values are sent; identifiers and free text are withheld.</span></li>
+          <li><strong>Every AI request checked and logged</strong><span>A leak scan blocks requests that contain identifying values, and each request is kept for audit.</span></li>
+          <li><strong>Your choice of model</strong><span>Use a cloud AI provider or run a local model on your own infrastructure.</span></li>
+          <li><strong>Role-based access</strong><span>Study-level administrators, mappers, reviewers and viewers; new accounts require approval.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal" style="margin-bottom:0">
+          <span class="eyebrow">Get started</span>
+          <h2>See SDTM Studio on your own study.</h2>
+          <p>Request a demo, or request access and an administrator will approve your account and set up a study workspace.</p>
+          <div class="hero-actions" style="justify-content:center">
+            <a href="/#contact" class="btn btn-primary">Request a Demo</a>
+            <a href="https://sdtmstudio.eclintrial.com/signup" class="btn btn-ghost">Request access →</a>
+          </div>
+          <p class="fine-print">AI proposals are drafts that qualified people review. Validation of the system for regulated use remains the responsibility of each organization.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="/" class="brand brand-light">
+          <img src="/assets/logo.svg" alt="" width="32" height="32" />
+          <span>e<strong>Clintrial</strong></span>
+        </a>
+        <p>AI-native software that helps sponsors process and analyze clinical trial data faster.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <a href="/sdtm/">SDTM Studio</a>
+        <a href="#features">Features</a>
+        <a href="https://sdtmstudio.eclintrial.com/">Sign in</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="/">Home</a>
+        <a href="/#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Use</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> eClintrial. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

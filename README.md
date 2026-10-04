@@ -8,7 +8,8 @@ python3 -m http.server 8080   # then open http://localhost:8080
 ```
 
 ## Structure
-- `index.html`: homepage (hero, platform, solutions, compliance, about, contact)
+- `index.html`: homepage (hero, mission, product, approach, about, contact)
+- `sdtm/index.html`: SDTM Studio product page; screenshots in `sdtm/img` (synthetic demo study only)
 - `privacy.html`, `terms.html`: legal templates (**have them reviewed by counsel**)
 - `404.html`, `robots.txt`, `sitemap.xml`
 - `css/styles.css`, `js/main.js`, `assets/logo.svg`
