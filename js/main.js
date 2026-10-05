@@ -88,8 +88,8 @@
     });
   });
 
-  // Contact form (client-side validation; wire FORM_ENDPOINT to a real backend)
-  var FORM_ENDPOINT = ''; // e.g. 'https://formspree.io/f/xxxxxxx'
+  // Contact form: validated here, then e-mailed to info@eclintrial.com by the SDTM Studio server
+  var FORM_ENDPOINT = 'https://sdtmstudio.eclintrial.com/api/public/contact';
   var form = document.getElementById('contact-form');
   if (form) {
     var status = form.querySelector('.form-status');
@@ -109,24 +109,32 @@
         return;
       }
 
+      var button = form.querySelector('button[type="submit"]');
       function done() {
-        status.textContent = 'Thank you! A clinical solutions specialist will contact you within one business day.';
+        status.textContent = 'Thank you! We received your message and will contact you within one business day.';
         status.classList.add('success');
         form.reset();
       }
+      function failed(message) {
+        status.textContent = (message || 'Your message could not be sent.') + ' You can also email info@eclintrial.com directly.';
+        status.classList.add('error');
+      }
 
-      if (!FORM_ENDPOINT) { done(); return; }
-
+      button.disabled = true;
+      status.textContent = 'Sending…';
       fetch(FORM_ENDPOINT, {
         method: 'POST',
         headers: { Accept: 'application/json' },
         body: new FormData(form)
       }).then(function (res) {
-        if (!res.ok) throw new Error(res.statusText);
-        done();
-      }).catch(function () {
-        status.textContent = 'Something went wrong. Please email info@eclintrial.com directly.';
-        status.classList.add('error');
+        return res.json().catch(function () { return {}; }).then(function (data) {
+          if (!res.ok) throw new Error(data.detail || '');
+          done();
+        });
+      }).catch(function (err) {
+        failed(err && err.message ? err.message + '.' : '');
+      }).then(function () {
+        button.disabled = false;
       });
     });
   }
